@@ -1,0 +1,34 @@
+
+* {
+  /* border: 1px solid black; */
+  margin: 0;
+}
+
+.newItemSection {
+  height: 100px;
+  background-color: #999;
+  /* line-height: 100px; */
+  padding: 20px ;
+  margin-top: 20px;
+  overflow: hidden;
+}
+
+.loremString{
+  margin-top: 20px;
+}
+
+
+/* 過渡效果 */
+.fade-enter-active, .fade-leave-active{
+  transition:  0.5s;
+}
+
+.fade-enter, .fade-leave-to{
+  opacity: 0;
+  /* height: 0; */
+}
+
+.fade-enter-to, .fade-leave{
+  opacity: 1;
+  /* height: 100px; */
+}
